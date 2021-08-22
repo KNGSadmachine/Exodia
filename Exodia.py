@@ -1,10 +1,6 @@
 import csv
 import random
 import tkinter as tk
-import matplotlib.pyplot as plt
-import numpy as np
-from matplotlib.backends.backend_tkagg import (
-    FigureCanvasTkAgg, NavigationToolbar2Tk)
 
 # CSVファイルの読み込み
 with open("Exodia.csv", encoding = "utf-8-sig") as fp:
